@@ -1,0 +1,50 @@
+v 20130925 2
+B 400 0 1200 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 2000 600 1600 600 1 0 0
+{
+T 2000 600 5 10 0 0 0 2 1
+pintype=unknown
+T 2000 600 5 10 0 0 0 2 1
+pinseq=0
+T 1545 595 5 10 1 1 0 6 1
+pinlabel=VCC
+T 1695 645 5 10 1 1 0 0 1
+pinnumber=4
+}
+P 0 600 400 600 1 0 0
+{
+T 0 600 5 10 0 0 0 8 1
+pintype=unknown
+T 0 600 5 10 0 0 0 8 1
+pinseq=0
+T 455 595 5 10 1 1 0 0 1
+pinlabel=EN
+T 305 645 5 10 1 1 0 6 1
+pinnumber=1
+}
+P 2000 200 1600 200 1 0 0
+{
+T 2000 200 5 10 0 0 0 2 1
+pintype=unknown
+T 2000 200 5 10 0 0 0 2 1
+pinseq=0
+T 1545 195 5 10 1 1 0 6 1
+pinlabel=CLK
+T 1695 245 5 10 1 1 0 0 1
+pinnumber=3
+}
+P 0 200 400 200 1 0 0
+{
+T 0 200 5 10 0 0 0 8 1
+pintype=unknown
+T 0 200 5 10 0 0 0 8 1
+pinseq=0
+T 455 195 5 10 1 1 0 0 1
+pinlabel=GND
+T 305 245 5 10 1 1 0 6 1
+pinnumber=2
+}
+T 400 900 8 10 1 1 0 0 1
+refdes=X?
+T 1600 900 8 10 1 1 0 6 1
+device=XALT_1
